@@ -1,0 +1,33 @@
+body{
+    background-color: #495579;
+}
+#stack, #queue{
+    align-items: center;
+    min-height: 300px;
+}
+.push, .pop{
+   width: 50px;
+   min-height: 50px;
+   border-radius: 5px;
+   margin: 5px auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow-wrap: anywhere;
+}
+.pop{
+    width: 50px;
+    min-height: 50px;
+    border-radius: 5px;
+}
+.popped{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.bg-7B8FA1{
+    background-color: #7B8FA1;
+}
+.bg-9C254D{
+    background-color: #9C254D;
+}
